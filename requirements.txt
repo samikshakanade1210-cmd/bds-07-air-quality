@@ -1,0 +1,15 @@
+pandas
+polars
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+sktime
+fastapi
+uvicorn
+streamlit
+geopandas
+mlflow
+pytest
+python-dotenv
+requests
