@@ -20,3 +20,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Day 3 | Partner A | ML Engineer | Built `src/features/build_features.py` for Wind Vector transformations ($u, v$) and temporal encoding ($\sin/\cos$) | 10 hrs |
 | Day 3 | Partner B | Data Pipeline | Implemented autoregressive lags ($t-1 \dots t-24$) and rolling statistics (3h, 6h, 24h), saving output to `data/processed/processed_features.parquet` | 10 hrs |
+
+## Day 4 Log (Target: 10 Hours per Student)
+
+| Date | Student Name | Role | Technical Activity / Task | Hours Spent |
+| :--- | :--- | :--- | :--- | :--- |
+| Day 4 | Partner A | ML Engineer | Implemented `chronological_time_series_split` with a 24-hour purge gap buffer to guarantee zero data leakage[cite: 1] | 10 hrs |
+| Day 4 | Partner B | Evaluation Lead | Built Tier 1 (Persistence) & Tier 2 (24h Rolling Naive) baseline metrics evaluation script (`src/models/baselines.py`)[cite: 1] | 10 hrs |
