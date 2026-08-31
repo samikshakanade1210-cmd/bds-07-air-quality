@@ -27,3 +27,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Day 4 | Partner A | ML Engineer | Implemented `chronological_time_series_split` with a 24-hour purge gap buffer to guarantee zero data leakage[cite: 1] | 10 hrs |
 | Day 4 | Partner B | Evaluation Lead | Built Tier 1 (Persistence) & Tier 2 (24h Rolling Naive) baseline metrics evaluation script (`src/models/baselines.py`)[cite: 1] | 10 hrs |
+
+## Day 5 Log (Target: 10 Hours per Student)
+
+| Date | Student Name | Role | Technical Activity / Task | Hours Spent |
+| :--- | :--- | :--- | :--- | :--- |
+| Day 5 | Partner A | Lead Modeler | Implemented Tier 3 LightGBM regressor (`src/models/train_lgbm.py`) achieving MAE 35.731 (24.09% reduction over Tier 1 persistence) | 10 hrs |
+| Day 5 | Partner B | MLOps Lead | Integrated SQLite-backed MLflow experiment tracking and persisted model artifacts to `models/lgbm_model.txt` | 10 hrs |
