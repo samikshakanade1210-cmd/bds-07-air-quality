@@ -41,3 +41,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Day 6 | Partner A | ML Explainability Lead | Built TreeSHAP interpretation pipeline (`src/models/explainability.py`) to quantify atmospheric feature impact on PM2.5 | 10 hrs |
 | Day 6 | Partner B | Data Viz & Documentation | Generated global SHAP feature summary plots (`reports/figures/shap_summary.png`) validating lag momentum drivers | 10 hrs |
+
+## Day 7 Log (Target: 10 Hours per Student)
+
+| Date | Student Name | Role | Technical Activity / Task | Hours Spent |
+| :--- | :--- | :--- | :--- | :--- |
+| Day 7 | Partner A | API Developer | Built FastAPI microservice infrastructure (`src/api/app.py`) for live prediction endpoints | 10 hrs |
+| Day 7 | Partner B | Deployment Engineer | Configured model artifact auto-loading and interactive Swagger API documentation UI | 10 hrs |
