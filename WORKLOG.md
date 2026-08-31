@@ -34,3 +34,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Day 5 | Partner A | Lead Modeler | Implemented Tier 3 LightGBM regressor (`src/models/train_lgbm.py`) achieving MAE 35.731 (24.09% reduction over Tier 1 persistence) | 10 hrs |
 | Day 5 | Partner B | MLOps Lead | Integrated SQLite-backed MLflow experiment tracking and persisted model artifacts to `models/lgbm_model.txt` | 10 hrs |
+
+## Day 6 Log (Target: 10 Hours per Student)
+
+| Date | Student Name | Role | Technical Activity / Task | Hours Spent |
+| :--- | :--- | :--- | :--- | :--- |
+| Day 6 | Partner A | ML Explainability Lead | Built TreeSHAP interpretation pipeline (`src/models/explainability.py`) to quantify atmospheric feature impact on PM2.5 | 10 hrs |
+| Day 6 | Partner B | Data Viz & Documentation | Generated global SHAP feature summary plots (`reports/figures/shap_summary.png`) validating lag momentum drivers | 10 hrs |
